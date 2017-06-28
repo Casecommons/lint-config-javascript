@@ -16,5 +16,8 @@
   },
   "author": "Case Commons",
   "license": "MIT",
-  "homepage": "https://github.com/Casecommons/lint-config-javascript"
+  "homepage": "https://github.com/Casecommons/lint-config-javascript",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }
