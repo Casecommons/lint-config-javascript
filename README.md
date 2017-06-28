@@ -21,3 +21,10 @@ Then use [`extends`](http://eslint.org/docs/user-guide/configuring#using-a-share
   ],
 }
 ```
+
+There are various configurations available:
+
+- `eslint-config-cc/eslintrc-base`: Base configuration applicable to any ECMAScript.
+- `eslint-config-cc/eslintrc-test`: Extension of base configuration for test code.
+- `eslint-config-cc/eslintrc-modern`: Extension of base configuration for modern (2015+) ECMAScript.
+- `eslint-config-cc/eslintrc-test-modern`: Extension of modern configuration for test code.
