@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-cc",
+  "version": "1.0.0",
+  "description": "Configuration for code lint tools in various languages.",
+  "files": [
+    "index.js",
+    "eslintrc-base.js",
+    "eslintrc-modern.js",
+    "eslintrc-test-modern.js",
+    "eslintrc-test.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casecommons/lint-config-javascript.git"
+  },
+  "author": "Case Commons",
+  "license": "MIT",
+  "homepage": "https://github.com/Casecommons/lint-config-javascript"
+}
