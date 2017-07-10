@@ -80,7 +80,7 @@ module.exports = {
     "padded-blocks": [2, "never"],
     "quote-props": [2, "as-needed", {"keywords": true}],
     "quotes": [2, "single", {"avoidEscape": true}],
-    "radix": [2],
+    "radix": [2, "as-needed"],
     "semi": [2, "never"],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "never"],
