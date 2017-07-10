@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Configuration for code lint tools in various languages.",
   "files": [
     "index.js",
