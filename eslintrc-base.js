@@ -83,7 +83,7 @@ module.exports = {
     "radix": [2, "as-needed"],
     "semi": [2, "never"],
     "space-before-blocks": [2, "always"],
-    "space-before-function-paren": [2, "never"],
+    "space-before-function-paren": [2, {"anonymous": "never", "asyncArrow": "always", "named": "never"}],
     "space-in-parens": [2, "never"],
     "space-infix-ops": [2],
     "space-unary-ops": [2, {"words": true, "nonwords": false}],
