@@ -1,7 +1,4 @@
 module.exports = {
-  "env": {
-    "jasmine": true,
-  },
   "extends": [
     "eslint-config-cc/eslintrc-base",
   ],
