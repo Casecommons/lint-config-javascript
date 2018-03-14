@@ -1,6 +1,6 @@
-# Case Commons Javascript lint config
+# Case Commons JavaScript/TypeScript lint config
 
-Configuration for [ESLint](http://eslint.org/) per Case Commons style guide.
+Configuration for [ESLint](http://eslint.org/)/[TSLint](https://palantir.github.io/tslint/) per Case Commons style guide.
 
 ## Usage
 
@@ -10,7 +10,9 @@ Add to dev dependencies in your project:
 npm install --save-dev https://github.com/Casecommons/lint-config-javascript.git
 ```
 
-Then use [`extends`](http://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package) to include the appropriate lints into `.eslintrc` in your own project. For example:
+### JavaScript
+
+Use [`extends`](http://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package) to include the appropriate lints into `.eslintrc` in your own project. For example:
 
 ```javascript
 // .eslintrc
@@ -28,6 +30,20 @@ There are various configurations available:
 - `eslint-config-cc/eslintrc-test`: Extension of base configuration for test code.
 - `eslint-config-cc/eslintrc-modern`: Extension of base configuration for modern (2015+) ECMAScript.
 - `eslint-config-cc/eslintrc-test-modern`: Extension of modern configuration for test code.
+
+### TypeScript
+
+Use [`extends`](https://palantir.github.io/tslint/usage/configuration/) to include the appropriate lints into `tslint.json` in your own project. For example:
+
+```javascript
+// tslint.json
+
+{
+  "extends": [
+    "eslint-config-cc/tslint"
+  ]
+}
+```
 
 ## Development
 

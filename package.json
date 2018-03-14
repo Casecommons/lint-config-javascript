@@ -1,13 +1,14 @@
 {
   "name": "lint-config-cc",
   "version": "2.0.0",
-  "description": "Configuration for JavaScript lint tools.",
+  "description": "Configuration for JavaScript/TypeScript lint tools.",
   "files": [
     "index.js",
     "eslintrc-base.js",
     "eslintrc-modern.js",
     "eslintrc-test-modern.js",
-    "eslintrc-test.js"
+    "eslintrc-test.js",
+    "tslint.json"
   ],
   "main": "index.js",
   "repository": {
@@ -21,6 +22,7 @@
     "registry": "https://casecommons.jfrog.io/casecommons/api/npm/npm/"
   },
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "^3.0.0",
+    "tslint": "^5.8.0"
   }
 }
