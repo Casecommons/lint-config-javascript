@@ -7,10 +7,12 @@ Configuration for [ESLint](http://eslint.org/)/[TSLint](https://palantir.github.
 Add to dev dependencies in your project:
 
 ```
-npm install --save-dev https://github.com/Casecommons/lint-config-javascript.git
+yarn add --dev https://github.com/Casecommons/lint-config-javascript.git
 ```
 
 ### JavaScript
+
+JavaScript linting uses [ESLint](https://eslint.org/). Be sure to add it as a dependency in your project and set it up to run as part of the project’s test suite.
 
 Use [`extends`](http://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package) to include the appropriate lints into `.eslintrc` in your own project. For example:
 
@@ -32,6 +34,8 @@ There are various configurations available:
 - `eslint-config-cc/eslintrc-test-modern`: Extension of modern configuration for test code.
 
 ### TypeScript
+
+TypeScript linting uses [TSLint](https://palantir.github.io/tslint/). Be sure to add it as a dependency in your project and set it up to run as part of the project’s test suite.
 
 Use [`extends`](https://palantir.github.io/tslint/usage/configuration/) to include the appropriate lints into `tslint.json` in your own project. For example:
 
