@@ -7,7 +7,7 @@ Configuration for [ESLint](http://eslint.org/)/[TSLint](https://palantir.github.
 Add to dev dependencies in your project:
 
 ```
-yarn add --dev https://github.com/Casecommons/lint-config-javascript.git
+yarn add --dev @casecommons/lint-config
 ```
 
 ### JavaScript
@@ -21,17 +21,17 @@ Use [`extends`](http://eslint.org/docs/user-guide/configuring#using-a-shareable-
 
 {
   extends: [
-    "eslint-config-cc/eslintrc-modern",
+    "@casecommons/lint-config/eslintrc-modern",
   ],
 }
 ```
 
 There are various configurations available:
 
-- `eslint-config-cc/eslintrc-base`: Base configuration applicable to any ECMAScript.
-- `eslint-config-cc/eslintrc-test`: Extension of base configuration for test code.
-- `eslint-config-cc/eslintrc-modern`: Extension of base configuration for modern (2015+) ECMAScript.
-- `eslint-config-cc/eslintrc-test-modern`: Extension of modern configuration for test code.
+- `@casecommons/lint-config/eslintrc-base`: Base configuration applicable to any ECMAScript.
+- `@casecommons/lint-config/eslintrc-test`: Extension of base configuration for test code.
+- `@casecommons/lint-config/eslintrc-modern`: Extension of base configuration for modern (2015+) ECMAScript.
+- `@casecommons/lint-config/eslintrc-test-modern`: Extension of modern configuration for test code.
 
 ### TypeScript
 
@@ -44,7 +44,7 @@ Use [`extends`](https://palantir.github.io/tslint/usage/configuration/) to inclu
 
 {
   "extends": [
-    "eslint-config-cc/tslint"
+    "@casecommons/lint-config/tslint"
   ]
 }
 ```

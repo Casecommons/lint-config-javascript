@@ -1,5 +1,5 @@
 {
-  "name": "lint-config-cc",
+  "name": "@casecommons/lint-config",
   "version": "3.0.0",
   "description": "Configuration for JavaScript/TypeScript lint tools.",
   "files": [
