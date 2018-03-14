@@ -4,7 +4,7 @@ module.exports = {
     "es6": true,
   },
   "extends": [
-    "eslint-config-cc/eslintrc-base",
+    "@casecommons/eslint-config/eslintrc-base",
   ],
   "parserOptions": {
     "ecmaFeatures": {

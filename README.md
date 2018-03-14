@@ -19,17 +19,17 @@ Use [`extends`](http://eslint.org/docs/user-guide/configuring#using-a-shareable-
 
 {
   extends: [
-    "@casecommons/lint-config/eslintrc-modern",
+    "@casecommons/eslint-config/eslintrc-modern",
   ],
 }
 ```
 
 There are various configurations available:
 
-- `@casecommons/lint-config/eslintrc-base`: Base configuration applicable to any ECMAScript.
-- `@casecommons/lint-config/eslintrc-test`: Extension of base configuration for test code.
-- `@casecommons/lint-config/eslintrc-modern`: Extension of base configuration for modern (2015+) ECMAScript.
-- `@casecommons/lint-config/eslintrc-test-modern`: Extension of modern configuration for test code.
+- `@casecommons/eslint-config/eslintrc-base`: Base configuration applicable to any ECMAScript.
+- `@casecommons/eslint-config/eslintrc-test`: Extension of base configuration for test code.
+- `@casecommons/eslint-config/eslintrc-modern`: Extension of base configuration for modern (2015+) ECMAScript.
+- `@casecommons/eslint-config/eslintrc-test-modern`: Extension of modern configuration for test code.
 
 ## Development
 

@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
-    "eslint-config-cc/eslintrc-base",
+    "@casecommons/eslint-config/eslintrc-base",
   ],
   "rules": {
     "no-magic-numbers": [0],

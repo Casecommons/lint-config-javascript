@@ -1,7 +1,7 @@
 module.exports = {
   "extends": [
-    "eslint-config-cc/eslintrc-modern",
-    "eslint-config-cc/eslintrc-test",
+    "@casecommons/eslint-config/eslintrc-modern",
+    "@casecommons/eslint-config/eslintrc-test",
   ],
   "rules": {
     "one-var": [0],
