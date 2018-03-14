@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-cc",
+  "name": "lint-config-cc",
   "version": "2.0.0",
-  "description": "Configuration for code lint tools in various languages.",
+  "description": "Configuration for JavaScript lint tools.",
   "files": [
     "index.js",
     "eslintrc-base.js",
@@ -17,7 +17,10 @@
   "author": "Case Commons",
   "license": "MIT",
   "homepage": "https://github.com/Casecommons/lint-config-javascript",
+  "publishConfig": {
+    "registry": "https://casecommons.jfrog.io/casecommons/api/npm/npm/"
+  },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "^3.0.0"
   }
 }
