@@ -1,6 +1,6 @@
 # Case Commons JavaScript lint config
 
-Configuration for [ESLint](http://eslint.org/) per Case Commons style guide.
+Configuration for [ESLint](http://eslint.org/) per Case Commons style guide. For TypeScript linting, see [lint-config-typescript](https://github.com/Casecommons/lint-config-typescript).
 
 ## Usage
 
